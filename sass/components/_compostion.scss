@@ -31,6 +31,7 @@
 
         }
     }
+    //effect the element was not hoverd
     &:hover &__photo:not(:hover){
         transform:  scale(.95);
     }

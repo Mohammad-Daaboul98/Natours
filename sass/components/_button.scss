@@ -36,6 +36,17 @@
         }
     
     }
+
+    
+    &--grean{
+        background-color: $primaryColor;
+        color: $colorWhite;
+    
+        &::after{
+            background-color :$primaryColor;
+        }
+    
+    }
         
         &::after{
             content:"";
