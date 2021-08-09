@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+}
+html{
+    box-sizing:border-box;
+
+}
+.k1{
+    margin: 0 auto;
+    padding: 15px 20px;
+    width: 500px;
+    background-color: brown;
+}
