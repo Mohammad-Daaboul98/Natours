@@ -38,19 +38,19 @@ $brackpoint agrument :
 
 @mixin respond($brackpoint) {
     @if $brackpoint == phone {
-        @media ( max-width : 37.5em){ @content }; //600px
+        @media only screen and ( max-width : 37.5em){ @content }; //600px
     }
 
     @if $brackpoint == tab-port {
-        @media ( max-width : 56.25em){ @content }; //900px
+        @media only screen and   ( max-width : 56.25em){ @content }; //900px
     }
 
     @if $brackpoint == tab-land {
-        @media ( max-width : 75em){ @content }; //1200px
+        @media only screen and  ( max-width : 75em){ @content }; //1200px
     }
 
     @if $brackpoint == big-desktop {
-        @media ( min-width : 122.5em){ @content }; //1800px
+        @media only screen and  ( min-width : 122.5em){ @content }; //1800px
     }
 
 }
